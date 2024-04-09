@@ -1,0 +1,189 @@
+body {
+    background-image: url(./space.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: roboto slab;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+nav a.navbar-brand {
+    background-color: #283445;
+    color: white;
+    padding: 5px;
+    margin: 0px 40px;
+    border-radius: 10px;
+}
+
+nav ul.navbar-nav li a.nav-link:hover {
+    background-color: #c5a67c;
+    color: white;
+    border-radius: 5px;
+}
+
+.home {
+    padding: 15em 0em;
+    color: white;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.267);
+    opacity: 80%;
+    border-radius: 50px;
+}
+
+.biodata {
+    background: linear-gradient(#283445, #464f5f);
+    text-align: center;
+    color: white;
+    padding: 70px 0px;
+}
+
+.biodata-content {
+    padding: 50px 20px;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 10px;
+	animation: float 4s ease-in-out infinite;
+}
+
+.col-sm-6 {
+    width: 550px;
+}
+
+.col-sm-5 {
+    padding-top: 20px;
+    width: 700px;
+    border-color: black;
+    border: 5px solid rgba(0, 0, 0, 0.37);
+    border-radius: 50px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.300);
+}
+
+.biodata ul.biodata-info li span.a {
+    width: 200px;
+    text-align: justify;
+}
+
+.biodata ul.biodata-info li span {
+    width: 700px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.study {
+    margin-top: -5px;
+    padding: 70px 0px;
+    background: linear-gradient(#464f5f, #676e81);
+    text-align: center;
+    color: white;
+}
+
+.study-content {
+    padding: 50px;
+}
+
+.study-img {
+    animation: float 4s ease-in-out infinite;
+}
+
+.skill {
+    padding: 70px 0px;
+    background: linear-gradient(#676e81, #798094);
+    text-align: center;
+    color: white;
+}
+
+.skill-content {
+    padding: 50px 200px;
+    text-align: left;
+}
+
+.container-skill {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: -10px;
+  }
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    margin-left: -15px;
+    color: white;
+}
+
+.photoshop {width: 90%; background-color: #464f5f;}
+.coreldraw {width: 80%; background-color: #283445;}
+.java {width: 70%; background-color: #5b514a;}
+.c {width: 75%; background-color: #4a3e3c;}
+.mysql {width: 90%; background-color: #2a2d31;}
+
+.portofolio {
+    margin-top: -5px;
+    padding: 70px 0px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#798094, #7c8c94);
+}
+
+.portofolio-content {
+    padding-top: 50px;
+}
+
+.col-sm-3 {
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: #283445;
+    color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.300);
+}
+
+.card:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+.contact {
+    margin-top: -5px;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+    background-color: #7c8c94;
+}
+
+.contact-content {
+    padding-top: 20px;
+}
+
+.contact a {
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+}
